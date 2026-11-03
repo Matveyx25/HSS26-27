@@ -1,0 +1,13 @@
+.button{
+	padding: 4px 8px;
+	border-radius: 0;
+	background: #a7d96b;
+	color: #000;
+	font-size: 16px;
+	font-family: serif;
+	margin: 4px;
+	&:hover{
+		transition: .4s;
+		background: #495b32;
+	}
+}

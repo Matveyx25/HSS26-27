@@ -1,0 +1,9 @@
+import React, { useState } from 'react'
+
+export const Input = () => {
+	const [value, setValue] = useState('')
+
+	return (
+		<input type='text' value={value} onChange={(e) => setValue(e.currentTarget.value)}/>
+	)
+}
